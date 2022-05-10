@@ -23,16 +23,10 @@ do
     continue
   fi
   
-    # echo "$project"
-  projectCP=""
 
   project_directory="$BENCHMARK_DIR/projects/$project"
+  projectCP=$(find $project_directory -name "*.jar" -type f -printf '%p:')
 
-find $project_directory -name "*.jar" -type f -print0 | while read -d $'\0' jar_file
-do
-#   while read jar_file in `find $project_directory -name "*.jar" -type f`; do
-    projectCP="$projectCP$jar_file:"
-done
 
 
   

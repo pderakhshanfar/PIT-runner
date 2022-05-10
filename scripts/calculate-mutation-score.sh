@@ -25,15 +25,8 @@ do
     fi
 
 
-    projectCP=""
     project_directory="$BENCHMARK_DIR/projects/$project"
-    
-    find $project_directory -name "*.jar" -type f -print0 | while read -d $'\0' jar_file
-    do 
-        projectCP="$projectCP$jar_file:"
-    done
-    
-    # continue
+    projectCP=$(find $project_directory -name "*.jar" -type f -printf '%p:')
 
 
     CONFIGS_TITLE_PASSED=0
