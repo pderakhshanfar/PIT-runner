@@ -7,7 +7,7 @@ outDir=$6
 projectCP=$7
 src_dir=$8
 
-classPaths="$(cat libs/pitest/classpath.txt)$projectCP:$(cat libs/test_execution/classpath.txt)$resultDir"
+classPaths="$(cat libs/pitest/classpath.txt)$projectCP$(cat libs/test_execution/classpath.txt)$resultDir"
 mutableClassPaths=$( python scripts/pit/export_mutable_cps.py $classPaths $project )
 sourceDirs="$src_dir/$project/src/main/java"
 
