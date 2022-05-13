@@ -1,0 +1,17 @@
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator,equal,52,KILLED,com.google.common.base.Objects_ESTest.test1
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,equal,52,KILLED,com.google.common.base.Objects_ESTest.test2
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator,equal,52,KILLED,com.google.common.base.Objects_ESTest.test1
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,equal,52,KILLED,com.google.common.base.Objects_ESTest.test1
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,equal,52,KILLED,com.google.common.base.Objects_ESTest.test0
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,equal,52,KILLED,com.google.common.base.Objects_ESTest.test1
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,equal,52,SURVIVED,none
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,equal,52,KILLED,com.google.common.base.Objects_ESTest.test1
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,equal,52,SURVIVED,none
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,equal,52,SURVIVED,none
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,equal,52,SURVIVED,none
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,equal,52,KILLED,com.google.common.base.Objects_ESTest.test0
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,equal,52,KILLED,com.google.common.base.Objects_ESTest.test1
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,equal,52,KILLED,com.google.common.base.Objects_ESTest.test2
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator,hashCode,77,SURVIVED,none
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator,hashCode,77,SURVIVED,none
+Objects.java,com.google.common.base.Objects,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,hashCode,77,SURVIVED,none
