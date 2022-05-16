@@ -1,0 +1,4 @@
+Verifier.java,org.scribe.model.Verifier,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,<init>,22,KILLED,org.scribe.model.Verifier_ESTest.test1
+Verifier.java,org.scribe.model.Verifier,org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator,<init>,23,KILLED,org.scribe.model.Verifier_ESTest.test2
+Verifier.java,org.scribe.model.Verifier,org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsMutator,getValue,28,KILLED,org.scribe.model.Verifier_ESTest.test0
+Verifier.java,org.scribe.model.Verifier,org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator,getValue,28,KILLED,org.scribe.model.Verifier_ESTest.test2
